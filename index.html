@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form" id="form">
+        <h2>Register With Us</h2>
+        <div class="form-control">
+          <label for="username">User Name</label>
+          <input type="text" id="username" placeholder="Enter name" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter email" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="text" id="password" placeholder="Enter password" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="passwor2d">Confirm Password</label>
+          <input
+            type="text"
+            id="password2"
+            placeholder="Enter cinfirm password"
+          />
+          <small>Error Message</small>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
