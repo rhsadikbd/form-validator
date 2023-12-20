@@ -89,8 +89,7 @@ function getFieldName(input){
 function checkPasswordMatch(input1, input2){
     if(input1.value !== input2.value){
         showError(input2, 'Password do not match');
-    }else{
-        showSuccess(input1);
+    }else if(input1.value == input2.value && input1.value > 1){
         showSuccess(input2);
     }
 }
